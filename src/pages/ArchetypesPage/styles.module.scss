@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  .archetype {
+    max-width: 700px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    background-color: #eeeeee;
+    margin: 0 0 5px 0;
+    .name {
+      background: linear-gradient(0.25turn, #64c8e6, #40435f);
+      padding: 5px;
+      border-radius: 5px;
+      margin: 0 0 5px 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .score {
+      font-size: 30px;
+      color: red;
+      font-weight: 700;
+      margin: 0 0 5px 0;
+    }
+  }
+}

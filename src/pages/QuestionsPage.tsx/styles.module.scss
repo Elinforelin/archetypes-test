@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  .form {
+    padding: 15px;
+    .fieldset {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: start;
+      border-radius: 10px;
+      border: none;
+      background-color: #eeeeee;
+      margin: 0 0 5px 0;
+      .questionTitle {
+        background: linear-gradient(0.25turn, #64c8e6, #40435f);
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .answerTitle {
+        margin: 5px 0 5px 0;
+      }
+      .answerTitle {
+      }
+    }
+    .finishBtn {
+      padding: 10px;
+      background-color: #64c8e6;
+      border-radius: 10px;
+      border: none;
+      font-weight: 700;
+      color: #1b1e41;
+      &:hover {
+        background-color: #a5d8e7;
+      }
+    }
+  }
+}
